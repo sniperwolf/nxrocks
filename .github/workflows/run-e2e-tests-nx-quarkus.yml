@@ -37,4 +37,4 @@ jobs:
       - name: Install dependencies and Run e2e tests
         run: |
           yarn
-          yarn run e2e nx-quarkus-e2e
+          yarn run e2e nx-quarkus-e2e --with-deps
