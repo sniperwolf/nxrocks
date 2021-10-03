@@ -41,4 +41,4 @@ jobs:
       - name: Install dependencies and Run e2e tests
         run: |
           yarn
-          yarn run e2e nx-flutter-e2e
+          yarn run e2e nx-flutter-e2e --with-deps
